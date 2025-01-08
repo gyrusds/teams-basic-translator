@@ -1,0 +1,48 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "appServiceName": {
+      "value": "<YOUR_APP_SERVICE_NAME>"
+    },
+    "existingAppServicePlanName": {
+      "value": ""
+    },
+    "existingAppServicePlanLocation": {
+      "value": ""
+    },
+    "newAppServicePlanName": {
+      "value": "<YOUR_NEW_APP_SERVICE_PLAN_NAME>"
+    },
+    "newAppServicePlanLocation": {
+      "value": "Spain Central"
+    },
+    "newAppServicePlanSku": {
+      "value": {
+        "name": "B1",
+        "tier": "Basic",
+        "size": "F1",
+        "family": "F",
+        "capacity": 1
+      }
+    },
+    "appType": {
+      "value": "MultiTenant"
+    },
+    "appId": {
+      "value": "<YOUR_APP_ID>"
+    },
+    "appSecret": {
+      "value": "<YOUR_APP_SECRET>"
+    },
+    "tenantId": {
+      "value": "common"
+    },
+    "UMSIName": {
+      "value": ""
+    },
+    "UMSIResourceGroupName": {
+      "value": ""
+    }
+  }
+}

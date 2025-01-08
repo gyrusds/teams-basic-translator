@@ -1,0 +1,7 @@
+services:
+  bot:
+    build: .
+    ports:
+      - "3978:3978"
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
