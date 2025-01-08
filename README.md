@@ -1,6 +1,6 @@
-# POC AI - Teams on RAG - CHATBOT
+# Teams Basic Translator
 
-PoC to integrate an Azure Chatbot with teams
+First steps into Teams and Azure bots. 
 
 ## Intro
 
